@@ -25,11 +25,11 @@ for (let i = 0; i < albums.length; i++){
 
 }
 if  (albums.length < 9){
-    greeting = <h4>${moreAlbumsMessage}</h4>;
+    document.createElement(<h4>${moreAlbumsMessage}</h4>);
 }
 
 else{
-    greeting = <h4>${playMusicMessage}</h4>;
+    document.createElement(<h4>${playMusicMessage}</h4>);
 }
 
 
