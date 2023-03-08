@@ -18,7 +18,9 @@ let albums = [{
   genre: 'Pop',
   artwork: 'img/ariana.png',
 },
-{
+{ // curly brackets are called "object literals
+  // properties in this array are: name, artist, genre, artwork
+  // for example, key: value --> artist: Sade
   name: 'Sade: The Ultimate Collection',
   artist: 'Sade',
   genre: 'Jazz/Pop/R&B',
