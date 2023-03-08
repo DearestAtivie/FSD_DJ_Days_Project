@@ -24,7 +24,7 @@ let albums = [{
   name: 'Sade: The Ultimate Collection',
   artist: 'Sade',
   genre: 'Jazz/Pop/R&B',
-  artwork: 'img/sade.jpg',
+  artwork: 'img/sade.jpg', // last comma is not neccessary
 },
 {
   name: 'Unapologetic',
@@ -49,7 +49,7 @@ let albums = [{
   artist: '2 Chainz',
   genre: 'Hip-Hop',
   artwork: 'img/2chainz.jpeg',
-},
+}, // last comma is not neccessary
 
 
 
