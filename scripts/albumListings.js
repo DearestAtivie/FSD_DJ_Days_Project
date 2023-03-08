@@ -8,8 +8,8 @@
 //The message variables have also been included
 
 //let html = '';
-//let moreAlbumsMessage = "You need more albums!";
-//let playMusicMessage = "Let's start playing music!";
+let moreAlbumsMessage = "You need more albums!";
+let playMusicMessage = "Let's start playing music!";
 
 // insert your code here
 
@@ -23,14 +23,6 @@ for (let i = 0; i < albums.length; i++){
       <img src="${albums[i].artwork}" alt="${albums[i].name}">
   `;
 
-} 
-
-if (i = 0, albmums.length < 9){
-    Header.innerhtml="You need more albums!";
-
-}
-else if(i = 0, albums.length >= 9){
-    Header.innerhtml="Let's start playing music!";
 }
 
 
