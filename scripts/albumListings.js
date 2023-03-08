@@ -23,9 +23,7 @@ for (let i = 0; i < albums.length; i++){
       <img src="${albums[i].artwork}" alt="${albums[i].name}">
   `;
 
-}
+} if albums.length = 
 
-
-document.querySelector('main').insertAdjacentHTML('beforeend', html);
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
