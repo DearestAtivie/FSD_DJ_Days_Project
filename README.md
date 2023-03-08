@@ -9,15 +9,17 @@ Refer back to the pet directory in-class demo for ideas...
 
 In this repository you have several pre-made files where you will work on your project. You will not need to touch *index.html* or *stylesheet.css*
 
-You will create a website that will serve as your DJ album list. If there are less than 10 albums, the website will show a message to tell you that you need more albums. If there are 10 albums or more, the website will let you know that you're ready to start playing music!
+Need to Do:
+- If there are less than 10 albums, show a message to tell you that you need more albums. 
+- If there are 10 albums or more: show message to say ready to start playing music!
 
 ## *albums.js*
-In this file, you will create an array of 5 'album' objects. Each object should have the following properties: 
-- "name"
-- "artist"
-- "genre".
-
-Optionally, you can also add an "artwork" property with an image of the album cover.
+- Make array of 5 'album' objects. 
+- Each object should have the following properties: 
+- name
+- artist
+- genre
+- Option: you can also add an "artwork" property with an image of the album cover.
 
 #### Note:
 
