@@ -28,7 +28,9 @@ for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){
     console.log (`This loop has run ${i} times`) // this console log will help to make sure your code is running the way it should be
 }
 if  (albums.length < 10){ // index is location (starts at 0). array.length counts actually number in the array (starts at 1).
-    document.createElement(`<h4>${moreAlbumsMessage}</h4>`);
+    // before adding document., use console log to test if this works
+    // instead of document.createElement(`<h4>${moreAlbumsMessage}</h4>`);, use the already given code below from Mase.
+    document.querySelector('header').insertAdjacentHTML((`<h4>${moreAlbumsMessage}</h4>`), html);
 }
 
 else{
