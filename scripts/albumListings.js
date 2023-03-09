@@ -23,18 +23,18 @@ for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){
       <h2>${albums[i].name}</h2> // dollar sign curly brackets drops in information that is going to change
       <h3>${albums[i].artist}</h3> // this will display the artist name in the array based on its index (location)
       <p>${albums[i].genre}</p>
-      <img src="${albums[i].artwork}" alt="${albums[i].name}">
+      <img src="${albums[i].artwork}" alt="${albums[i].name} Cover">
   `;
     console.log (`This loop has run ${i} times`) // this console log will help to make sure your code is running the way it should be
 }
 if  (albums.length < 10){ // index is location (starts at 0). array.length counts actually number in the array (starts at 1).
     // before adding document., use console log to test if this works
     // instead of document.createElement(`<h4>${moreAlbumsMessage}</h4>`);, use the already given code below from Mase.
-    document.querySelector('header').insertAdjacentHTML((`<h4>${moreAlbumsMessage}</h4>`), html);
+    document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${moreAlbumsMessage}</h4>`, html);
 }
 
 else{
-    document.createElement(`<h4>${playMusicMessage}</h4>`);
+    document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMessage}</h4>`, html);
 }
 
 
