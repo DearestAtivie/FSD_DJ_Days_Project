@@ -25,7 +25,7 @@ for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){
       <p>${albums[i].genre}</p>
       <img src="${albums[i].artwork}" alt="${albums[i].name}">
   `;
-
+    console.log (`This loop has run ${i} times`) // this console log will help to make sure your code is running the way it should be
 }
 if  (albums.length < 9){
     document.createElement(`<h4>${moreAlbumsMessage}</h4>`);
