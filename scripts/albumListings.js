@@ -27,7 +27,7 @@ for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){
   `;
     console.log (`This loop has run ${i} times`) // this console log will help to make sure your code is running the way it should be
 }
-if  (albums.length < 9){
+if  (albums.length < 10){ // index is location (starts at 0). array.length counts actually number in the array (starts at 1).
     document.createElement(`<h4>${moreAlbumsMessage}</h4>`);
 }
 
