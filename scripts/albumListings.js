@@ -15,10 +15,13 @@ let playMusicMessage = "Let's start playing music!";
 
 let html = '';
 
-for (let i = 0; i < albums.length; i++){
-  html += `
-      <h2>${albums[i].name}</h2>
-      <h3>${albums[i].artist}</h3>
+for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){}, i = 0 means counter start at 0. 
+    // i has to be less than the length because if it is the actual length, there is nothing at the last counter.
+    // i++ is not just adding once, but twice. This makes the loop keep going as the index increases to its end.
+  html += ` // using backticks because we are using template literals. This differentiates from actual text.
+  // if we do not do +=, the browser will play the loop rapidly, erasing each array's info until it reaches the last index and stays there, instead of listing i numbers of arrays.
+      <h2>${albums[i].name}</h2> // dollar sign curly brackets drops in information that is going to change
+      <h3>${albums[i].artist}</h3> // this will display the artist name in the array based on its index (location)
       <p>${albums[i].genre}</p>
       <img src="${albums[i].artwork}" alt="${albums[i].name}">
   `;
