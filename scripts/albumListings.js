@@ -10,6 +10,7 @@
 //let html = '';
 let moreAlbumsMessage = "You need more albums!";
 let playMusicMessage = "Let's start playing music!";
+let favoriteMessage = "Top 3 Favorites";
 
 // insert your code here
 
