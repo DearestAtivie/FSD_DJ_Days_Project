@@ -29,7 +29,7 @@ for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){
       <h3>${albums[i].artist}</h3>
       <p>${albums[i].genre}</p>
       <img src="${albums[i].artwork}" alt="${albums[i].name} Cover">
-      <p>${albums.favorite}</p>
+      <p>${albums[i].favorite}</p>
   `;
     console.log (`This loop has run ${i} times`) // this console log will help to make sure your code is running the way it should be
 }
@@ -43,9 +43,7 @@ else{
     document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMessage}</h4>`, html);
 }
 
-if(albums.favorite = 'yes'){
-    document.querySelector('main').insertAdjacentHTML('beforeend', `<p>${favoriteMessage}</p>`, html);
-}
+
 
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
