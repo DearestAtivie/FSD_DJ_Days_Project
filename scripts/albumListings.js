@@ -42,5 +42,9 @@ else{
     document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMessage}</h4>`, html);
 }
 
+if(albums.length = 'yes'){
+
+}
+
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
