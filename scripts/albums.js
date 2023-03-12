@@ -11,6 +11,7 @@ let albums = [{
   artist: 'Kid Cudi',
   genre: 'Hip-Hop',
   artwork: 'img/kidcudi.jpg',
+  favorite,
 },
 {
   name: 'positions',
@@ -31,6 +32,7 @@ let albums = [{
   artist: 'Rihanna',
   genre: 'R&B/Pop',
   artwork: 'img/rihanna.jpeg',
+  favorite,
 },
 {
   name: 'Days Are Gone',
@@ -43,6 +45,7 @@ let albums = [{
   artist: 'Drake',
   genre: 'Hip-Hop',
   artwork: 'img/drake.jpeg',
+  favorite,
 },
 {
   name: "Based On A T.R.U. Story",
