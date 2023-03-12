@@ -43,7 +43,9 @@ else{
     document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMessage}</h4>`, html);
 }
 
-
+if(i = 0, albums.favorite = 0){
+    document.querySelector('main').insertAdjacentHTML('beforeend', `<p>${favoriteMessage}</p>` , html);
+}
 
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);

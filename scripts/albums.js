@@ -18,6 +18,7 @@ let albums = [{
   artist: 'Ariana Grande',
   genre: 'Pop',
   artwork: 'img/ariana.png',
+  favorite: 1,
 },
 { // curly brackets are called "object literals
   // properties in this array are: name, artist, genre, artwork
@@ -26,6 +27,8 @@ let albums = [{
   artist: 'Sade',
   genre: 'Jazz/Pop/R&B',
   artwork: 'img/sade.jpg', // last comma is not neccessary
+  favorite: 1,
+
 },
 {
   name: 'Unapologetic',
@@ -39,6 +42,7 @@ let albums = [{
   artist: 'Haim',
   genre: 'Pop/Rock',
   artwork: 'img/haim.png',
+  favorite: 1,
 },
 {
   name: "Hold On, We're Going Home",
@@ -52,6 +56,7 @@ let albums = [{
   artist: '2 Chainz',
   genre: 'Hip-Hop',
   artwork: 'img/2chainz.jpeg',
+  favorite: 1,
 }, // last comma is not neccessary
 
 
