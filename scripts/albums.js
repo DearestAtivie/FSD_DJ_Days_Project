@@ -52,22 +52,33 @@ let albums = [{
   favorite: 0,
 },
 {
-  name: "Based On A T.R.U. Story",
+  name: 'Based On A T.R.U. Story',
   artist: '2 Chainz',
   genre: 'Hip-Hop',
   artwork: 'img/2chainz.jpeg',
   favorite: 1,
 }, // last comma is not neccessary
-
-
-
-
-
-
-
-
-
-
+{
+  name: "Beyonce",
+  artist: 'Beyonce',
+  genre: 'R&B',
+  artwork: 'img/beyonce.png',
+  favorite: 1,
+},
+{
+  name: "Halcyon",
+  artist: 'Ellie Goulding',
+  genre: 'Pop',
+  artwork: 'img/ellie.png',
+  favorite: 1,
+},
+{
+  name: "Purpose",
+  artist: 'Justin Bieber',
+  genre: 'Pop',
+  artwork: 'img/justin.png',
+  favorite: 1,
+}
 
 
 
