@@ -59,8 +59,8 @@ let albums = [{
   favorite: 1,
 }, // last comma is not neccessary
 {
-  name: "Beyonce",
-  artist: 'Beyonce',
+  name: "Beyoncè",
+  artist: 'Beyoncè',
   genre: 'R&B',
   artwork: 'img/beyonce.png',
   favorite: 1,

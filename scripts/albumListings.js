@@ -24,6 +24,7 @@ for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){
   // dollar sign curly brackets drops in information that is going to change
   
   html +=
+
   ` 
       <h2>${albums[i].name}</h2> 
       <h3>${albums[i].artist}</h3>
@@ -31,6 +32,12 @@ for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){
       <img src="${albums[i].artwork}" alt="${albums[i].name} Cover">
   `;
     console.log (`This loop has run ${i} times`) // this console log will help to make sure your code is running the way it should be
+}
+if (albums[i].favorite = 0){
+    html +=
+    `<p>${favoriteMessage}</p>
+    `
+;
 }
 if  (albums.length < 10){ // index is location (starts at 0). array.length counts actually number in the array (starts at 1).
     // before adding document., use console log to test if this works
@@ -42,8 +49,9 @@ else{
     document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMessage}</h4>`, html);
 }
 
-if(i = 0, albums.favorite = 0){
+if(albums.favorite = 0){
     document.querySelector('main').insertAdjacentHTML('beforeend', `<p>${favoriteMessage}</p>` , html);
+
 }
 
 
