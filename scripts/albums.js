@@ -40,14 +40,14 @@ let albums = [{
   artist: 'Haim',
   genre: 'Pop/Rock',
   artwork: 'img/haim.png',
-  favorite,
+  favorite: 'yay',
 },
 {
   name: "Hold On, We're Going Home",
   artist: 'Drake',
   genre: 'Hip-Hop',
   artwork: 'img/drake.jpeg',
-  favorite,
+  favorite: 'yay',
 },
 {
   name: 'Based On A T.R.U. Story',
@@ -68,7 +68,7 @@ let albums = [{
   artist: 'Ellie Goulding',
   genre: 'Pop',
   artwork: 'img/ellie.png',
-  favorite,
+  favorite: 'yay',
 },
 {
   name: "Purpose",
