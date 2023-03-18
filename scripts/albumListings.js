@@ -40,7 +40,13 @@ for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){
     `
 ;
 
+
+
 console.log (`This loop has run ${i} times`);}
+if (favorite){
+   document.getElementsByTagName('p').style.border = 'green'
+;
+}
 }
 
 
