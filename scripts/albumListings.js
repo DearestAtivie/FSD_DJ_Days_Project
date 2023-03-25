@@ -39,15 +39,13 @@ for (let i = 0; i < albums.length; i++){ // for loop always startst with for (){
     `<p>${favoriteMessage}</p>
     `
 ;
-
-
-
-console.log (`This loop has run ${i} times`);}
-if (favorite){
-    html +=
-   document.getElementsByTagName('p').style.border = 'green'
-;
+    }
+let honetag = document.getElementsByTagName('h1');
+for (let i = 0; i < honetag.length; i++){
+    honetag[i].style.color = "green";
+    console.log (`This loop has run ${i} timez`);
 }
+
 }
 
 
